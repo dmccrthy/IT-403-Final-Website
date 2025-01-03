@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Page Formatting */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #fdfdfd;
+
+  /* Typography */
+  font-family: Arial, sans-serif;
+
+  background-image: url("../images/bg-grid.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 40rem;
+}
+
+img {
+  border-radius: 20px;
+  border: 5px solid #111111;
+  width: 400px;
+}
+
+/* Nav Style */
+.home-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10rem;
+  width: 18rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  border: 5px solid #111111;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 20px
+}
+
+.home-nav #home {
+  background-image: url("../images/arcade.jpg");
+  background-size: cover;
+}
+
+.home-nav #seventy {
+  background-image: url("../images/magnavox.jpg");
+  background-size: cover;;
+}
+
+.home-nav #eighty {
+  background-image: url("../images/NES.png");
+  background-size: cover;
+}
+
+.home-nav #ninety {
+  background-image: url("../images/playstation.jpg");
+  background-size: cover;
+}
+
+.home-nav #twenty {
+  background-image: url("../images/xbox360.jpg");
+  background-size: cover;
+}
+
+.home-nav #twentyten {
+  background-image: url("../images/ps4.png");
+  background-size: cover;
+}
+
+.home-nav #present {
+  background-image: url("../images/quest.jpg");
+  background-size: cover;
+}
+
+.article-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 10px;
+}
+
+.article-nav a {
+  color: #111111;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.page-header {
+  line-height: 80px;
+  margin-top: 50px;
+}
+
+/* Table Styling */
+table, td, th {
+  border: 2px solid #111111;
+  background-color: #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+}
+
+th {
+  font-size: 20px;
+}
+
+tfoot tr td {
+  background-color: #eceff1;
+}
+
+
+/* Work Cited Styling */
+#work-cited {
+  background-color: #eceff1;
+  border-radius: 20px;
+  border: 5px solid #111111;
+  padding: 20px;
+  margin: 20px;
+
+  /* Prevent images from overlapping work-cited */
+  clear: both;
+}
+
+/* Contact and Form Styles */
+.personal {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.personal aside {
+  margin: 20px;
+}
+
+.personal div {
+  margin: 20px;
+}
+
+.contact {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contact img {
+  border-radius: 20px;
+  border: 5px solid #111111;
+  height: 15rem;
+  width: 15rem;
+}
+
+#email {
+  font-size: 25px;
+  color: #12ff94;
+  filter: drop-shadow(1px 1px #111111);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 5px 0 10px 0;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f3f3f3;
+  width: 100vw;
+  text-align: center;
+}
+
+footer hr {
+  margin: 20px 40px 20px 40px
+}
